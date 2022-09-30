@@ -4,3 +4,5 @@
 /Debug
 4SoulsCompanion(DynamicArrays).sln
 /.vscode
+source.*
+*.pdb

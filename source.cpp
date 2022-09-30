@@ -513,9 +513,11 @@ int main()
     srand(time(NULL));
     //занесения названий в классы
     NameCards(CardList, CardNamesList, AmmountOfAllCards);
+    delete[] CardNamesList;
+    
     //непосредственно код 
     LoadDiceCardReminder(CardList, AmmountOfAllCards);
     // cout << CardList[22].GetID();
     delete[] CardList;
-    delete[] CardNamesList;
+
 }
